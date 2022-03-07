@@ -1,0 +1,9 @@
+{
+  "name": "russia-sanctions-base",
+  "version": "dev",
+  "main": "js/matcher.js",
+  "repository": "https://github.com/Russia-Sanctions/Base",
+  "author": "Emily Shepherd <emily@redcoat.dev>",
+  "license": "MIT",
+  "private": false
+}

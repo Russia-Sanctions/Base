@@ -1,0 +1,14 @@
+{
+    "name": "rips/rips",
+    "type": "project",
+    "require": {
+        "php": ">=5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emily Shepherd",
+            "email": "emily@redcoat.dev"
+        }
+    ]
+}

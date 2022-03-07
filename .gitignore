@@ -1,5 +1,5 @@
 /vendor/
 /node_modules/
-composer.loc
+composer.lock
 package.lock
 yarn.lock

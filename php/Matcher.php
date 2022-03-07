@@ -17,7 +17,7 @@ class Matcher
      */
     public function __construct()
     {
-        $this->fp = fopen(__DIR__ . "../trees/ipv4.bin", "r");
+        $this->fp = fopen(__DIR__ . "/../trees/ipv4.bin", "r");
     }
 
     /**

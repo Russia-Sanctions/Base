@@ -1,5 +1,5 @@
 {
-    "name": "rips/rips",
+    "name": "russia-sanctions/base",
     "type": "project",
     "require": {
         "php": ">=5"

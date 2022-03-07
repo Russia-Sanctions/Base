@@ -1,5 +1,5 @@
 {
-  "name": "russia-sanctions-base",
+  "name": "@russia-sanctions/base",
   "version": "dev",
   "main": "js/matcher.js",
   "repository": "https://github.com/Russia-Sanctions/Base",

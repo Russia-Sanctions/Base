@@ -1,9 +1,16 @@
 {
   "name": "@russia-sanctions/base",
+  "description": "Sanction Web Traffic From Russia - Base Library",
+  "keywords": ["Russia", "Belarus", "Ukraine", "Sanction"],
   "version": "0.0.2",
   "main": "js/index.js",
   "repository": "https://github.com/Russia-Sanctions/Base",
   "author": "Emily Shepherd <emily@redcoat.dev>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "files": [
+    "js/",
+    "assets/",
+    "trees/"
+  ]
 }

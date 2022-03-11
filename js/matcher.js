@@ -1,9 +1,16 @@
 const fs = require('fs/promises')
 const fdPromise = fs.open(__dirname + '/../trees/ipv4.bin')
 
-const ip2long = ip =>
-  Buffer.from(ip.split('.').map(val => parseInt(val)))
-  .readUInt32BE()
+const ip2long = ip => {
+  const arr = ip.split('.').map(val => parseInt(val))
+
+  if (arr.length === 4) {
+    return Buffer.from(arr.map(val => parseInt(val))).readUInt32BE()
+  } else {
+    // TODO Currently returns 0 for IPv6
+    return 0
+  }
+}
 
 const readNode = p => p.fd.read(p.buf, 0, 12, p.position += 12)
   .then(() => ({

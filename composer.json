@@ -20,5 +20,16 @@
       "name": "Emily Shepherd",
       "email": "emily@redcoat.dev"
     }
-  ]
+  ],
+  "archive": {
+    "exclude": [
+      "*",
+      "!/assets/",
+      "!/composer.json",
+      "!/README.md",
+      "!/php/",
+      "!/trees/",
+      "!/LICENSE"
+    ]
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "name": "russia-sanctions/base",
-    "type": "project",
-    "require": {
-        "php": ">=5"
-    },
-    "autoload": {
-        "psr-4": {
-            "RussiaSanctions\\": "php/"
-        }
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Emily Shepherd",
-            "email": "emily@redcoat.dev"
-        }
-    ]
+  "name": "russia-sanctions/base",
+  "type": "project",
+  "require": {
+    "php": ">=5"
+  },
+  "autoload": {
+    "psr-4": {
+      "RussiaSanctions\\": "php/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emily Shepherd",
+      "email": "emily@redcoat.dev"
+    }
+  ]
 }

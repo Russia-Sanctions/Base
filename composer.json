@@ -1,8 +1,13 @@
 {
   "name": "russia-sanctions/base",
-  "type": "project",
+  "description": "Sanction Web Traffic From Russia - Base Library",
+  "keywords": ["Russia", "Belarus", "Ukraine", "Sanction"],
+  "type": "library",
   "require": {
     "php": ">=5"
+  },
+  "support": {
+    "source": "https://github.com/Russia-Sanctions/Base"
   },
   "autoload": {
     "psr-4": {

@@ -2,6 +2,10 @@
 
 This project aims to create a set of plugins for popular web frameworks,
 which will auto block all access from Russian and Belarusian IP addresses
-to any website that opts in by installing and using these plugins.
+and display a polite message explaining the sanctions and encouraging
+users to protest against the war.
 
-See https://github.com/Russia-Sanctions for supported frameworks.
+![Message](https://i.imgur.com/49D8m9U.png)
+
+For the most up to date list of supported platforms, see
+https://github.com/Russia-Sanctions.

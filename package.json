@@ -1,7 +1,7 @@
 {
   "name": "@russia-sanctions/base",
   "description": "Sanction Web Traffic From Russia - Base Library",
-  "keywords": ["Russia", "Belarus", "Ukraine", "Sanction"],
+  "keywords": ["Russia", "Belarus", "Ukraine", "Sanction", "War"],
   "version": "0.0.3",
   "main": "js/index.js",
   "repository": "https://github.com/Russia-Sanctions/Base",
